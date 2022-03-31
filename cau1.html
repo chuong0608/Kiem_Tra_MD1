@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giaiPT(a, b) {
+        if (a === 0 && b === 0) {
+            document.write("Phương trình vô số nghiệm");
+        } else if (a !== 0 && b === 0) {
+            document.write("Phương trình có nghiệm x=" + b);
+        } else if (a === 0 && b !== 0) {
+            document.write(" Phương trình vô nghiệm");
+        } else {
+            document.write("Phương trình có nghiệm x=" + (-b / a));
+        }
+    }
+     giaiPT(5,8);
+</script>
+</body>
+</html>
